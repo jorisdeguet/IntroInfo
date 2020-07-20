@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="page du cours professions informatiques">
+        <meta name="author" content="Département informatique, collège Édouard Montpetit">
+
+        <title>S03 : Professions informatiques</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <style>
+            body {
+                padding-top: 60px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Professions informatiques : <strong>semaine 3</strong></a>
+                </div>
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="index.html" >Accueil</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <div class="container">
+
+
+            <div class="row">
+                <div class="">
+                    <h3 id="s3"> Semaine 3 : Découverte de Cascading Style Sheets</h3>
+                    <div class="col-md-6 alert alert-success">
+                        <strong>Avant la séance (2h)</strong>
+                        <p>
+                            Pour vous familiariser, lisez la page wikipedia sur
+                            <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" class="btn btn-primary btn-xs">CSS</a>
+                        </p>
+                        <p>
+                            Lisez l'article suivant sur les notions de
+                            <a class="btn btn-primary btn-xs" href="http://www.alsacreations.com/article/lire/535-quelle-est-la-difference-entre-une-classe-class-et-un-id.html">class et id</a>
+                        </p>
+                        <p>
+                            Lisez la page suivante sur les 3 possibilités pour ajouter des règles CSS à une page web
+                            <a class="btn btn-primary btn-xs" href="http://www.w3schools.com/css/css_howto.asp">
+                                3 façons d'ajouter du CSS
+                            </a>
+                        </p>
+                        <p>
+                            Vous devez parcourir le site W3Schools (en anglais)
+                            <a class="btn btn-xs btn-primary" target="_blank" href="https://developer.mozilla.org/fr/Apprendre/CSS/Les_bases/Le_modèle_de_boîte">
+                                Modèle de boîte CSS
+                            </a> (max 20 minutes).
+                        </p>
+                        <p>
+                            Vous devez regarder et reproduire le résultat de la video suivante:
+                            <iframe width="200" height="150" src="https://www.youtube.com/embed/WicRqXx0pZY?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </p>
+                    </div>
+                    <div class="col-md-6 alert alert-info">
+                        <strong>Pendant la séance</strong>
+                        <p>
+                            Le professeur fera une démontration du modèle de boîte de CSS.
+                        </p>
+                        <p>
+                            Vous devez compléter les exercices et commencer la partie du TP portant sur la création du fichier CSS.
+                        </p>
+                        <p>
+                            N'hésitez pas à poser vos questions aux professeurs. Vous devriez pouvoir compléter l'ensemble du travail à faire pendant la période (consultez le professeur si ce n'est pas le cas).
+                        </p>
+                    </div>
+                    <div class="col-md-12 well">
+                        <div>
+                            <a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#e03" aria-expanded="false" aria-controls="collapseExample">
+                                Exercices de la semaine 
+                            </a>
+                        <div >
+                            <h3>Exercice A</h3>
+                            <p>
+                                Créez une nouvelle page web appelé <strong>surlignage.html</strong>. Ajoutez trois paragraphes HTML au body avec du "Lorem ipsum". Dans chaque paragraphe, isolez des mots en utilisant des spans et attribuez leur différentes propriétés CSS (texte en gras, souligné, avec une bordure, en majuscule etc.). Vous devez essayer au moins 6 propriétés CSS différentes. (2 par paragraphe)
+                            </p>
+                            <h3>Exercice B</h3>
+                            <p>
+                                Créez un fichier appelé <strong>polices.html</strong> dans lequel vous ajouterez 5 paragraphes contenant tous le texte
+                            </p> 
+                            <pre>Ceci est un test de police 1234 !@#$</pre> 
+                            <p>
+                                En utilisant des id ou des class, attribuez une police différente à chaque paragraphe.
+                            </p>
+                        <h3>Exercice C</h3>
+                        <p>
+                            Créez un fichier appelé <strong>couleurs.html</strong> Vous devez changer les couleurs de texte ou de fond d'au moins trois éléments en utilisant des méthodes de couleur différentes (hexa, rgb ou couleur nommée).
+                        </p>
+                        <h3>Exercice D</h3>
+                        <p>
+                            Créez une page appelé <strong>echiquier.html</strong> reproduisant un echiquier de 64 cases (8x8). Vous devez utiliser uniquement des <em>div</em>, des <em>span</em> et des règles CSS dans un fichier externe appelé <strong>echiquier.css</strong>.
+                        </p>
+                        <h3>Exercice E</h3>
+                        <p>
+                            Créer une copie de <strong>echiquier.html</strong> appelé <strong>echiquier2.html</strong>. Ajouter une bordure rouge autour de toutes les cases noires et une bordure verte autour de toutes les cases blanches en ajoutant des règles dans l'en-tête de la page HTML.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+
+</html>

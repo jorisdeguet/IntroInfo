@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="page du cours professions informatiques">
+        <meta name="author" content="Département informatique, collège Édouard Montpetit">
+
+        <title>Projet phase 3</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            body {
+                padding-top: 70px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">420-103 : <strong>Projet phase 3</strong></a>
+                </div>
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Page du cours</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row  hidden-xs">
+                <div class="">
+                    <h3 id="s1">Phase 3</h3>
+                    <div class="col-xs-4 alert">
+                        <strong>Approfondir le CSS</strong>
+                        <p>
+                            Dans cette phase, nous allons continuer à mettre en pratique le CSS pour permettre
+                            un aspect professionnel et compléter la navigation du site.
+                        </p>
+
+                    </div>
+                    <div class="col-xs-4 alert">
+                        <strong>Site web, plusieurs pages</strong>
+                        <p>
+                            Dans la phase 3, nous allons dépasser une unique page web et mettre en place un site
+                            multi-pages. Vous devrez donc ajouter des liens entre les pages et s'assurer que
+                            l'ensemble reste fonctionnel.
+                        </p>
+
+                    </div>
+                    <div class="col-xs-4 alert ">
+                        <strong>Recherche sur votre entreprise</strong>
+                        <p>
+                            Vous allez devoir effectuer de la recherche d'information sur votre future entreprise.
+                            À titre d'information voici les entreprises qui emploient le plus de nos stagiaires:
+                        <ul>
+                            <li>Skytech</li>
+                            <li>Globalia</li>
+                            <li>Mediagrif</li>
+                        </ul>
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row well">
+            <div class="">
+                <h3>
+                    <span class="label label-success">1 point</span>
+                    Création de la page "Mon entreprise" et p3.css
+                </h3>
+                <div class="col-md-10 alert ">
+                    <strong>Structure de votre projet</strong>
+                    <p>
+                        En partant d'une copie de votre page d'accueil, vous devez commencer une nouvelle page.
+                    </p>
+                    <p>
+                        Vous devez également créer un nouveau fichier css <strong>p3.css</strong> pour y
+                        inclure les règles de cette phase. Il ne devra y avoir aucune copie de règle issue de p2.css dans p3.css.
+                        Vous devez inclure les 2 fichiers css dans vos pages html.
+                    </p>
+                    <p>
+                        La structure de votre répertoire doit maintenant ressembler à :
+                    </p>
+                    <ul>
+                        <li>dupont/
+                            <ul>
+                                <li>index.html</li>
+                                <li>entreprise.html</li>
+                                <li>
+                                    css/
+                                    <ul>
+                                        <li>p2.css</li>
+                                        <li>p3.css</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    images/
+                                    <ul>
+                                        <li>portrait.png  </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-2 alert alert-info">
+                    <strong>Pointage</strong>
+                    <ul>
+                        <li><span class="label label-success">1 point</span> création de la page entreprise, du fichier p3.css</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="row well">
+            <div class="">
+                <h3>
+                    <span class="label label-success">10 points</span>
+                    Contenu la page "Mon entreprise"
+                </h3>
+                <div class="col-md-6 alert ">
+                    <strong>Entreprise</strong>
+                    <p>
+                        Adapter le contenu de la page d'index pour y intégrer dans vos propres mots, un texte décrivant les éléments suivants pour une compagnie réelle:
+                    </p>
+                    <ul>
+                        <li>Nom de l'entreprise</li>
+                        <li>Année de création</li>
+                        <li>Activité principale</li>
+                        <li>Nombre d'employés</li>
+                        <li>Carte Google Maps pointant la localisation de l'entreprise</li>
+                    </ul>
+
+                    <strong>Métier</strong>
+                    <p>
+                        Vous devez ensuite décrire votre métier en informatique dans votre entreprise en 2 ou 3 phrases en utilisant vos mots.
+                    </p>
+                    <p>
+                        Trouvez au minimum 2 offres d'emploi pour le même métier (potentiellement dans des compagnies différentes) et ajoutez les dans une liste html non ordonnée avec les liens.
+                    </p>
+                    <p>
+                        Indiquez dans une liste HTML 3 compétences communes aux 2 offres d'emploi que vous avez retenues.
+                    </p>
+                    <span class="label label-warning">
+                        Regardez la copie d'écran final pour l'apparence attendue.
+                    </span>
+                </div>
+
+                <div class="col-md-6 alert alert-info">
+                    <strong>Pointage</strong>
+                    Entreprise:
+                    <ul>
+                        <li><span class="label label-success">1 point</span> qualité du français</li>
+                        <li><span class="label label-success">4 points</span> éléments de contenu réels. Vous devez inclure des liens vers les pages ayant servi de source.</li>
+                        <li><span class="label label-success">1 point</span> carte Google Maps</li>
+                    </ul>
+                    Métier:
+                    <ul>
+                        <li><span class="label label-success">1 point</span> qualité du français</li>
+                        <li><span class="label label-success">1,5 point</span> Offres d'emploi réelles et pertinentes. Vous devez inclure des liens vers les pages ayant servi de source.</li>
+                        <li><span class="label label-success">1,5 point</span> Compétences communes bien identifiées</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row well">
+            <div class="">
+                <h3>
+                    <span class="label label-success">4 points</span>
+                    Navigation
+                </h3>
+                <div class="col-md-6 alert ">
+                    <strong>Navigation</strong>
+                    <p>
+                        Vous devez intégrer une zone de navigation entre pages. Cette div doit se
+                        situer entre top et middle.
+                    </p>
+                    <p>
+                        Le menu doit contenir 4 éléments qui pointent chacun vers une page:
+                    </p>
+                    <ul>
+                        <li>Accueil : pointe vers <strong>index.html</strong></li>
+                        <li>Mon entreprise : pointe vers <strong>entreprise.html</strong></li>
+                        <li>Ma formation : pointe vers <strong>formation.html</strong> (à venir)</li>
+                        <li>Me contacter : pointe vers <strong>contact.html</strong> (à venir)</li>
+                    </ul>
+                    <p>
+                        Chaque élément doit avoir une bordure avec des coins arrondis et de l'espace.
+                        Référez-vous à l'image pour l'aspect à reproduire. Vous devez choisir vos propres couleurs.
+                    </p>
+                    <p>
+                        Vous devez inclure le menu de navigation dans les 2 pages existantes.
+                    </p>
+                    <span class="label label-warning">
+                        Regardez la copie d'écran final pour l'apparence attendue.
+                    </span>
+                </div>
+                <div class="col-md-6 alert alert-info">
+                    <strong>Pointage</strong>
+                    <ul>
+                        <li><span class="label label-success">1 point</span> menu dans les 2 pages</li>
+                        <li><span class="label label-success">1 point</span> contient 4 liens dont 2 fonctionnels</li>
+                        <li><span class="label label-success">1 point</span> la navigation est centrée dans la page</li>
+                        <li><span class="label label-success">1 point</span> le style du menu est respecté</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row well">
+            <div class="col-md-12 alert alert-danger">
+                <strong>Copie d'écran</strong>
+                <img src="img/phase3.png" style="width:100%;"/>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

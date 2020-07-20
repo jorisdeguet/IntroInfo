@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="page du cours professions informatiques">
+        <meta name="author" content="Département informatique, collège Édouard Montpetit">
+
+        <title>Projet phase 2</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            body {
+                padding-top: 70px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">420-103 : <strong>Projet phase 2</strong></a>
+                </div>
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Page du cours</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row hidden-xs">
+                <div class="">
+                    <h3 id="s1">Phase 2 : CSS et mise en page globale</h3>
+                    <div class="col-xs-5 alert">
+                        <strong>La structure</strong>
+                        <p>
+                            La plupart des sites utilise une structure à base de div qui permet d'attacher
+                            des règles de mise en page à certains éléments.
+                            Le but de la phase 2 est d'illustrer cette technique en effectuant la mise en page
+                            de votre page d'index.
+                        </p>
+                    </div>
+                    <div class="col-xs-3 alert">
+                        <strong>Le style</strong>
+                        <p>
+                            Nous allons appliquer des règles CSS pour modifier l'apparence de votre page
+                            HTML.
+                        </p>
+                    </div>
+                    <div class="col-xs-4 alert">
+                        <strong>La mise en page</strong>
+                        <p>
+                            Vous allez voir comment mettre en page des éléments HTML.
+                            Vous allez centrer des éléments, faire apparaître un menu à la droite d'un autre.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">2 points</span>
+                        Création du fichier CSS et structure du répertoire
+                    </h3>
+                    <div class="col-xs-8 alert">
+                        <strong>Création d'un fichier CSS</strong>
+                        <p>
+                            Créer un fichier CSS appelé p2.css commençant par un commentaire CSS mentionnant
+                            votre nom et prénom.
+                        </p>
+                        <p>
+                            Vous devrez ajouter toutes les règles CSS de ce travail dans ce fichier.
+                        </p>
+                        <ul>
+                            <li>Dupont/
+                                <ul>
+                                    <li>index.html</li>
+                                    <li>css/
+                                        <ul>
+                                            <li>p2.css</li>
+                                        </ul>
+                                    </li>
+                                    <li>images/</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> création de p2.css</li>
+                            <li><span class="label label-success">1 point</span> commentaire avec votre nom sur la ligne 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row well">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">4 points</span>
+                        Div top et bandeau du titre
+                    </h3>
+                    <div class="col-xs-9 alert">
+                        <strong>div dont l'id est top</strong>
+                        <p>
+                            Dans la div dont l'id est top, vous devez créer une nouvelle div dont l'id devra être top-center.
+                        </p>
+                        <p>
+                            Vous devez créer une règle CSS dans <strong>p2.css</strong> pour donner
+                            une largeur à top-center entre 700 et 800 pixels. Vous devez ajouter les règles
+                            nécessaires pour que top-center soit centré horizontalement dans top.
+                        </p>
+                        <p>
+                            La div top doit faire 100 pixels de haut.
+                        </p>
+                        <p>
+                            Vous devez ensuite attribuer une couleur de fond pour l'ensemble de la div top. Finalement
+                            Vous ajouterez un titre de niveau H1 dont le contenu est "Accueil prénom nom" dans la
+                            div <em>top-center</em>.
+                        </p>
+                        <p>
+                            Finalement, régler le problème de marge qui crée un espace entre le début de la page
+                            et le haut de la div top.
+                        </p>
+                    </div>
+                    <div class="col-xs-3 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> div centrée</li>
+                            <li><span class="label label-success">1 point</span> taille selon les consignes</li>
+                            <li><span class="label label-success">1 point</span> titre</li>
+                            <li><span class="label label-success">1 point</span> margin à 0</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">3 points</span>
+                        Div centrale (middle)
+                    </h3>
+                    <div class="col-xs-8 alert">
+                        <strong>div dont l'id est middle</strong>
+                        <p>
+                            Vous devez centrer la div middle-center dans la div middle.
+                            Vous devez fixer une largeur entre 700 et 800 pixels et ajouter les règles
+                            nécessaires pour obtenir le centrage.
+                        </p>
+                        <p>
+                            La div centrale doit avoir ses 2 coins du bas arrondis (voir la copie d'écran finale).
+                        </p>
+                    </div>
+                    <div class="col-xs-4 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> div centrée</li>
+                            <li><span class="label label-success">1 point</span> taille selon les consignes</li>
+                            <li><span class="label label-success">1 point</span> bordure respectant les consignes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row well">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">3 points</span>
+                        Div du menu
+                    </h3>
+                    <div class="col-xs-8 alert">
+                        <strong>div dont l'id est menu</strong>
+                        <p>
+                            Vous devez faire flotter la div de menu pour qu'elle apparaisse à la droite
+                            dans middle-center. Il faut qu'il y ait une bordure aux coins arrondis.
+                            Vous choisirez la couleur de votre choix.
+
+                        </p>
+                        <p>
+                            Créez les espacements appropriés pour correspondre à peu près à la copie d'écran
+                            fournie.
+                        </p>
+                    </div>
+                    <div class="col-xs-4 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> div flotte à droite</li>
+                            <li><span class="label label-success">1 point</span> bordure respectée</li>
+                            <li><span class="label label-success">1 point</span> espacements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">3 points</span>
+                        Div du portrait
+                    </h3>
+                    <div class="col-xs-8 alert">
+                        <strong>Votre portrait sous le menu</strong>
+                        <p>
+                            Vous devez reproduire la même apparence que votre menu mais pour un
+                            portrait de vous.
+                        </p>
+                        <p>
+                            Vous sauverez l'image dans le répertoire <strong>images</strong> de
+                            votre projet.
+                        </p>
+                        <p>
+                            L'image doit occuper toute la largeur de la div.
+                        </p>
+                        <span class="label label-warning">
+                            Regardez la copie d'écran final pour l'apparence attendue.
+                        </span>
+                    </div>
+                    <div class="col-xs-4 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> div flotte à droite en dessous du menu</li>
+                            <li><span class="label label-success">1 point</span> le portrait est présent</li>
+                            <li><span class="label label-success">1 point</span> le portrait prend la largeur complète de la div</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row well">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">3 points</span>
+                        Div du bas
+                    </h3>
+                    <div class="col-xs-8 alert">
+                        <strong>div dont l'id est bottom</strong>
+                        <p>
+                            Dans la div du bas, vous devez simplement créer un span centré avec un copyright
+                            contenant votre nom.
+                        </p>
+                        <p>
+                            Assurez vous de créer un espacement autour du span pour la lisibilité
+                            (au moins 10 pixels sur les 4 côtés).
+                        </p>
+                    </div>
+                    <div class="col-xs-4 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> pour le contenu</li>
+                            <li><span class="label label-success">1 point</span> texte centré</li>
+                            <li><span class="label label-success">1 point</span> espacement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="">
+                    <h3>
+                        <span class="label label-success">3 points</span>
+                        Règles globales et couleurs
+                    </h3>
+                    <div class="col-xs-8 alert">
+                        <strong>Règles globales</strong>
+                        <p>
+                            Vous devez changer la police pour Arial dans l'ensemble de la page.
+                        </p>
+                        <strong>Couleurs</strong>
+                        <p>
+                            Vous devez vous assurez que vous utilisez des couleurs différentes
+                            pour:
+                        </p>
+                        <ul>
+                            <li>Le bandeau du titre doit être foncé et le texte blanc</li>
+                            <li>Le fond de la page doit avoir une couleur différente</li>
+                            <li>Le fond de middle-center doit être blanc</li>
+                        </ul>
+                        <p>
+                            Vous pouvez choisir les couleurs mais les zones colorées doivent correspondre
+                            aux consignes. (demandez au professeur si vous n'êtes pas sûr)
+                        </p>
+                    </div>
+                    <div class="col-xs-4 alert alert-info">
+                        <strong>Pointage</strong>
+                        <ul>
+                            <li><span class="label label-success">1 point</span> pour la police de texte</li>
+                            <li><span class="label label-success">2 points</span> pour les couleurs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="">
+                    <h3>
+                        Aperçu du résultat attendu
+                    </h3>
+                    <div class="col-md-12 well">
+                        <img src="img/phase2.png" style="width:100%;" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="">
+                    <div class="col-md-12 alert alert-danger">
+                        <h1>
+                            <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+                        </h1>
+                        <h1>Mauvaise indentation = <span class="label label-danger">note de 0</span></h1>
+                        <h1>HTML invalide = <span class="label label-danger">note de 0</span></h1>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
